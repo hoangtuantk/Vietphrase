@@ -475,4 +475,19 @@ document.addEventListener('DOMContentLoaded', async () => {
 
   updateClock();
   setInterval(updateClock, 1000);
+
+// Lắng nghe sự kiện phím tắt Ctrl + Shift + D để xuất file
+  document.addEventListener('keydown', (e) => {
+    // Kiểm tra tổ hợp phím Ctrl + Shift + D (nhận diện cả 'd' thường và 'D' hoa)
+    if (e.ctrlKey && e.shiftKey && e.key.toLowerCase() === 'd') {
+      e.preventDefault(); // Ngăn chặn hành vi mặc định của trình duyệt nếu phím tắt bị trùng
+      
+      // Kích hoạt sự kiện click của nút xuất file
+      if (!DOMElements.exportBtn.disabled) {
+        DOMElements.exportBtn.click();
+      }
+    }
+  });
+
 });
+
