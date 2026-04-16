@@ -476,12 +476,11 @@ document.addEventListener('DOMContentLoaded', async () => {
   updateClock();
   setInterval(updateClock, 1000);
 
-  // Lắng nghe sự kiện phím tắt Ctrl + Shift + D để xuất file
   document.addEventListener('keydown', (e) => {
-    // Kiểm tra tổ hợp phím Ctrl + Shift + D (nhận diện cả 'd' thường và 'D' hoa)
+    // Kiểm tra tổ hợp phím Ctrl + Shift + D
     if (e.ctrlKey && e.shiftKey && e.key.toLowerCase() === 'd') {
       e.preventDefault(); // Ngăn chặn hành vi mặc định của trình duyệt nếu phím tắt bị trùng
-      
+
       // Kích hoạt sự kiện click của nút xuất file
       if (!DOMElements.exportBtn.disabled) {
         DOMElements.exportBtn.click();
@@ -490,10 +489,22 @@ document.addEventListener('DOMContentLoaded', async () => {
   });
 
   document.addEventListener('keydown', (e) => {
+    // Kiểm tra tổ hợp phím Ctrl + Shift + K 
+    if (e.ctrlKey && e.shiftKey && e.key.toLowerCase() === 'k') {
+      e.preventDefault(); // Ngăn chặn hành vi mặc định của trình duyệt
+
+      // Kích hoạt sự kiện click của nút xuất Name List
+      if (!DOMElements.nameListExportBtn.disabled) {
+        DOMElements.nameListExportBtn.click();
+      }
+    }
+  });
+
+  document.addEventListener('keydown', (e) => {
     // Kiểm tra tổ hợp phím Ctrl + Alt + D
     if (e.ctrlKey && e.altKey && e.key.toLowerCase() === 'd') {
       e.preventDefault(); // Ngăn chặn hành vi mặc định của trình duyệt
-      
+
       // Khởi tạo và phát ra sự kiện chuột phải (contextmenu) lên nút Translate
       const rightClickEvent = new MouseEvent('contextmenu', {
         bubbles: true,

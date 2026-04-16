@@ -1,7 +1,8 @@
 =====================================================================
 Phím tắt
-Ctrl + Shift + D : Download txt
-Ctrl + Alt + D : Dán nội dung từ Clipbload vào ô Dịch và thực hiện Dịch
+Ctrl + Shift + D | Tải Kết quả dịch
+Ctrl + Shift + K | Tải NameList
+Ctrl + Alt + D | Dán và dịch
 
 =====================================================================
 Định dạng nội dung file từ điển
