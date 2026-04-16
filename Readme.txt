@@ -1,3 +1,9 @@
+=====================================================================
+Phím tắt
+Ctrl + Shift + D : Download txt
+Ctrl + Alt + D : Dán nội dung từ Clipbload vào ô Dịch và thực hiện Dịch
+
+=====================================================================
 Định dạng nội dung file từ điển
 
 1. Cấu Trúc Dòng Cơ Bản
@@ -30,3 +36,4 @@ Add new files
 2. m_nameList.js [  const priorityOrder = .... ]
 TÙY CHỌN
 3.THÊM TRONG m_dictionary-worker.js [const dictionariesToStandardize = new Set([... ] (XỬ LÝ KHOẢNG TRẮNG)
+=====================================================================
