@@ -390,10 +390,10 @@ document.addEventListener('DOMContentLoaded', async () => {
     const singleSpacedLine = firstLine.replace(/\s+/g, ' ');
 
     // Bước 3: Loại bỏ các ký tự không hợp lệ trong tên file
-    const sanitizedFirstLine = singleSpacedLine.replace(/[\\/:*?"<>|]/g, '');
+    const sanitizedFirstLine = singleSpacedLine.replace(/[\\/:*?"<>|&^%!]/g, '');
 
-    // Bước 4: Giới hạn độ dài còn 80 ký tự
-    const truncatedFirstLine = sanitizedFirstLine.substring(0, 80);
+    // Bước 4: Giới hạn độ dài còn 50 ký tự
+    const truncatedFirstLine = sanitizedFirstLine.substring(0, 50);
 
     // Bước 5: Tạo tên file cuối cùng
     const fileName = `${year}-${month}-${day}_${hours}-${minutes}-${seconds}_${truncatedFirstLine}.txt`;
