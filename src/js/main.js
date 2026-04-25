@@ -474,7 +474,7 @@ document.addEventListener('DOMContentLoaded', async () => {
   updateFontSize();
 
   updateClock();
-  setInterval(updateClock, 1000);
+  setInterval(updateClock, 60000);
 
   document.addEventListener('keydown', (e) => {
     // Kiểm tra tổ hợp phím Ctrl + Shift + D
