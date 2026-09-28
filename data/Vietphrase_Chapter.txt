@@ -7,6 +7,7 @@
 #6| 第{a}幕
 #7| {a}章
 #8| 第{a} | DEL
+#9| myadd
 
 ###1
 第一回=Hồi 1:
@@ -71118,3 +71119,54 @@
 ###8
 
 ###9
+章八=Chương thứ 8
+章百=Chương thứ 100
+章二=Chương thứ 2
+章九=Chương thứ 9
+章六=Chương thứ 6
+章七=Chương thứ 7
+章三=Chương thứ 3
+章十=Chương thứ 10
+章四=Chương thứ 4
+章五=Chương thứ 5
+章一=Chương thứ 1
+章二十=Chương thứ 20
+章三十=Chương thứ 30
+章十八=Chương thứ 18
+章十二=Chương thứ 12
+章十九=Chương thứ 19
+章十六=chương thứ 16
+章十七=Chương thứ 17
+章十三=Chương thứ 13
+章十四=Chương thứ 14
+章十五=chương thứ 15
+章十一=chương thứ 11/Chương 11
+章二十八=Chương thứ 28
+章二十二=Chương thứ 22
+章二十九=Chương thứ 29
+章二十六=Chương thứ 26
+章二十七=Chương thứ 27
+章二十三=Chương thứ 23
+章二十四=Chương thứ 24
+章二十五=Chương thứ 25
+章二十一=Chương thứ 21
+章三十八=Chương thứ 38
+章三十二=Chương thứ 32
+章三十九=Chương thứ 39
+章三十六=Chương thứ 36
+章三十七=Chương thứ 37
+章三十三=Chương thứ 33
+章三十四=Chương thứ 34
+章三十五=Chương thứ 35
+章三十一=Chương thứ 31
+章四十八=Chương thứ 48
+章四十二=Chương thứ 42
+章四十六=Chương thứ 46
+章四十七=Chương thứ 47
+章四十三=Chương thứ 43
+章四十四=Chương thứ 44
+章四十五=Chương thứ 45
+章四十一=Chương thứ 41
+第两百零四=Chương thứ 204
+章四十=Chương thứ 40
+###10
