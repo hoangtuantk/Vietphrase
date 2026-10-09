@@ -978441,7 +978441,7 @@
 来混一口饭吃=để kiếm miếng cơm ăn
 来获取胜利的=để đạt được thắng lợi
 来接我的朋友=bằng hữu tới đón ta
-来解决问题的=tớii giải quyết vấn đề
+来解决问题的=tới giải quyết vấn đề
 来看你笑话的=đến xem chuyện cười của ngươi
 来看热闹的人=người tới xem náo nhiệt
 来看她的次数=số lần đến xem nàng
