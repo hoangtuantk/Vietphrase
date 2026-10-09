@@ -271794,7 +271794,7 @@
 洪大姐=Hồng đại tỷ
 洪大郎=Hồng đại lang
 洪大妹=Hồng đại muội
-洪大人=Hồng đại nhHồng/Hồng đại nhân
+洪大人=Hồng đại nhân
 洪大嫂=Hồng đại tẩu
 洪大师=Hồng đại sư
 洪大叔=Hồng đại thúc
