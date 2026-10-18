@@ -299762,7 +299762,7 @@
 蓝宗主=Lam tông chủ
 蓝总裁=tổng giám đốc Lam
 蓝总管=Lam tổng quản
-蓝族长=Lam tộc trường
+蓝族长=Lam tộc trưởng
 蓝组长=Lam tổ trưởng
 蓝尊者=Lam tôn giả
 澜沧诀=Lan Thương quyết/{Lan Thương quyết}
