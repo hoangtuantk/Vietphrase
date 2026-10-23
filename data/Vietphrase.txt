@@ -820360,7 +820360,7 @@
 巨大的冲击=trùng kích cực lớn
 巨大的触手=xúc tu to lớn
 巨大的刺激=kích thích cực lớn
-巨大的打击=đả kich cực lớn/đả kích khổng lồ
+巨大的打击=đả kích cực lớn/đả kích khổng lồ
 巨大的大门=cửa to lớn
 巨大的大厅=căn phòng thật lớn
 巨大的代价=giá cả to lớn
